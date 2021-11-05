@@ -39,5 +39,10 @@ Setelah muncul kolom *norm_sales_amount* ubah tipe data tersebut dengan klik **T
 ## Build Dashboard
 Pada tahap ini akan ditunjukan langkah-langkah yang dilakukan untuk membuat dashboard pada Power BI. Pertama-tama kita akan menambahkan data *revenue* untuk menghitung total pendapatan dari perusahaan. Cara menambahkannya dengan klik **Home > Enter data** kemudian berikan nama Tabel dengan *Base Measures* dan klik **load**. Setelah Tabel dibuat kemudian kita buat *measure* pada tabel tersebut dengan cara klik titik tiga di samping *BaseMeasures* <br />
 ![bi](https://user-images.githubusercontent.com/80409975/140469758-a9b40d01-e27a-45e4-bc0e-4812c96e9fc8.JPG) <br />
-Langkah selanjutnya adalah klik **New measure** dan isikan measure tersebut dengan rumus **revenue = SUM('sales transactions'[norm_sales_amount])**
+Langkah selanjutnya adalah klik **New measure** dan isikan measure tersebut dengan rumus. <br /> 
+**revenue = SUM('sales transactions'[norm_sales_amount])**. <br />
+Setelah measure terbuat selanjutnya buat dashboard dengan cara pindahkan measure revenue (dragging) kemudian letakan pada lembar dashboard (dropping) seperti pada gambar. <br /> 
+![bi2](https://user-images.githubusercontent.com/80409975/140487082-3a54c9c9-1452-487c-a774-44918664647b.JPG) <br />  <br /> 
+Kemudian dapat disesuaikan bentuk dari visualisasinya dengan memilih pada **Visualizations** untuk revenue akan digunakan jenis card. <br /> <br /> 
+![bi3](https://user-images.githubusercontent.com/80409975/140489124-b2042518-c1f0-4d78-873b-d8e0c6e3f2de.JPG) <br /> <br /> 
 
