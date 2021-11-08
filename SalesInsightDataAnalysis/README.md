@@ -49,4 +49,8 @@ Setelah measure terbuat selanjutnya buat dashboard dengan cara pindahkan measure
 ![bi2](https://user-images.githubusercontent.com/80409975/140487082-3a54c9c9-1452-487c-a774-44918664647b.JPG) <br />  <br /> 
 Kemudian dapat disesuaikan bentuk dari visualisasinya dengan memilih pada **Visualizations** untuk revenue akan digunakan jenis card. <br /> <br /> 
 ![bi3](https://user-images.githubusercontent.com/80409975/140489124-b2042518-c1f0-4d78-873b-d8e0c6e3f2de.JPG) <br /> <br /> 
+Berikut ini merupakan hasil dari dashboard yang sudah dibuat dengan analisis berdasar revenue. <br />
+![image](https://user-images.githubusercontent.com/80409975/140749917-1bbf5d14-f743-4d0f-87ac-3722bbb7c6a4.png) <br /> <br />
+Kemudian dashboard berikut ini merupakan analisis berdasarkan profit. <br /> <br />
+![image](https://user-images.githubusercontent.com/80409975/140749760-801b672c-2d41-4d90-9d3d-b24c9d705621.png)
 
