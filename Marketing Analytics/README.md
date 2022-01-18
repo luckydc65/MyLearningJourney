@@ -92,11 +92,11 @@ Spain (SP) memperoleh jumlah terbanyak dalam hal total pembelian. Sedangkan US m
 Orang yang menghabiskan jumlah emas diatas rata-rata lebih banyak melakukan pembelian di toko dibandingkan dengan yang dibawah rata-rata.
 
 ## 4. Apakah “Married PhD candidates” memiliki hubungan yang signifikan dengan jumlah yang dihabiskan untuk ikan? 
-![image](https://user-images.githubusercontent.com/80409975/149913361-10d80558-c8c0-4139-95d0-6c655b83402d.png) <br/ > <br />
+![image](https://user-images.githubusercontent.com/80409975/149913361-10d80558-c8c0-4139-95d0-6c655b83402d.png) <br /> <br />
 Married PhD candidates menghabiskan lebih sedikit di produk ikan dibandingkan dengan customer lainnya. 
 
 ### Faktor apa yang sangat berhubungan dengan jumlah yang dihabiskan untuk produk ikan?
-![image](https://user-images.githubusercontent.com/80409975/149913542-4b49332f-f93d-49ef-baff-6331eff6d766.png) <br/ > <br />
+![image](https://user-images.githubusercontent.com/80409975/149913542-4b49332f-f93d-49ef-baff-6331eff6d766.png) <br /> <br />
 Faktor yang berhubungan dengan jumlah yang dihabiskan untuk produk ikan :
 1. Jumlah yang dihabiskan untuk Buah, Jumlah yang dihabiskan untuk Permen, Jumlah yang dihabiskan untuk Daging, Pembelian di Katalog, dan Pendapatan  (Berkorelasi Positif)
 2. Kunjungan di web dan Memiliki anak kecil (Berkorelasi Negatif)
