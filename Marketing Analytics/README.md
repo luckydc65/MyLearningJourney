@@ -2,6 +2,13 @@
 ## Overal Goal
 Kamu seorang marketing analyst dan kamu diminta oleh Chief Marketing Officer bahwa marketing campaigns saat ini tidak seefektif yang mereka bayangkan. Kamu butuh untuk menganalisis data untuk mengerti masalah ini dan memberikan solusi berdasarkan data.
 
+## About Data
+Data diperoleh dari https://www.kaggle.com/jackdaoud/marketing-data. Data tersebut terdapat 28 variabel dengan 2240 customer (Row) dengan isi sebagai berikut:
+1. Profil dari customer
+2. Preferensi produk
+3. Campign success/failures
+4. Kinerja dari channel
+
 ## Section 01: Exploratory Data Analysis
 1. Apakah terdapat missing value atau outliers? Bagaimana kamu akan mengatasinya? <br />
 2. Apakah terdapat variabel berguna yang dapat direkayasa dengan data yang diberikan? <br />
@@ -100,6 +107,59 @@ Married PhD candidates menghabiskan lebih sedikit di produk ikan dibandingkan de
 Faktor yang berhubungan dengan jumlah yang dihabiskan untuk produk ikan :
 1. Jumlah yang dihabiskan untuk Buah, Jumlah yang dihabiskan untuk Permen, Jumlah yang dihabiskan untuk Daging, Pembelian di Katalog, dan Pendapatan  (Berkorelasi Positif)
 2. Kunjungan di web dan Memiliki anak kecil (Berkorelasi Negatif)
+
+## 5. Apakah terdapat hubungan signifikan antara wilayah geografis dan keberhasilan dari campaign?
+![image](https://user-images.githubusercontent.com/80409975/150304408-cf36fcc4-9b58-453a-bdfb-c37a6e0a5701.png) <br /> <br />
+ME (Mexico) hanya memiliki 3 customer, oleh karena itu kita bisa mengabaikannya. Untuk mengetahui apakah ada hubungan signifikan antara wilayah geografis dan keberhasilan campign, akan dilakukan dengan menggunakan teknik regresi. <br /> <br />
+
+![image](https://user-images.githubusercontent.com/80409975/150304530-f969e908-ab65-4c84-b764-7a8b90cfdcb8.png) <br /> <br />
+Berdasarkan P-value 0.05, semua negara memperoleh nilai p-value lebih besar dari 0.05 wilayah geografis tidak punya hubungan signifikan dengan keberhasilan campaign. 
+
+# Section 03: Data Visualization
+## 1. Marketing campaign mana yang paling berhasil?
+![image](https://user-images.githubusercontent.com/80409975/150305035-b8fdaf1e-5794-4a10-bac5-2e2b947418d6.png) <br /> <br />
+Marketing Campaign yang paling sukses adalah yang Campaign yang paling baru (Response).
+## 2. Seperti apa rata-rata pelanggan untuk perusahaan ini?
+![image](https://user-images.githubusercontent.com/80409975/150305219-fb8ac92c-de01-425c-8620-eca47d9be766.png) <br /> <br />
+Rata-rata pelanggan untuk perusahaan ini adalah:
+- Lahir di tahun 1969
+- Menjadi customer pada usia 44 tahun
+- Memiliki penghasilan sekitar $52.000 per tahun
+- Memiliki 1 tanggungan
+- Terakhir melakukan pembelian pada 49 hari lalu
+## Produk mana yang memiliki performa terbaik?
+![image](https://user-images.githubusercontent.com/80409975/150305941-fcd4c339-005f-4d03-b257-57988438c916.png) <br /> <br />
+- Rata-rata customer menghabiskan:
+    - $25-50 di Buah, Permen, Ikan, atau Emas
+    - Lebih dari $160 di Daging
+    - Lebih dari $300 di Wines
+    - Lebih dari $600 secara Total
+- Produk yang memiliki performa terbaik:
+    - Wines
+    - Daging
+## Channels mana yang memiliki performa buruk?
+![image](https://user-images.githubusercontent.com/80409975/150306266-c3fc4f98-eb4a-4a2e-a07c-9766d351609f.png) <br /> <br />
+Rata-rata customer melakukan 2 pembelian dengan diskon, 2 pembelian dengan katalog, 4 pembelian di web, dan 5 pembelian di toko.
+Rata-rata total pembelian adalah 14.
+
+# Conclusion
+ - Penerimaan campaign berkorelasi positif dengan income dan berkorelasi negatif dengan orang yang memiliki tanggungan (anak kecil/remaja).
+    - Rekomendasi: Membuat dua jenis campaign, pertama ditujukan untuk orang dengan income tinggi tanpa tanggungan (anak kecil/remaja) dan yang lainnya ditujukan pada orang dengan income rendah yang memiliki tanggungan (anak kecil/remaja).
+ - Produk paling berhasil adalah wines dan daging (Rata-rata customer menghabiskan paling banyak untuk produk ini)
+    - Rekomendasi: fokuskan campaign untuk meningkatkan penjualan pada produk yang memiliki performa rendah
+ - Channels dengan performa buruk adalah pembelian melalui diskon dan pembelian melalui katalog (rata-rata cutomer melakukan pembelian paling sedikit melalui channels ini)
+ - Channels dengan performa paling baik adalah pembelian melalui web dan pembelian melalui toko (rata-rata customer melakukan pembelian paling banyak melalui channels ini)
+    - Rekomendasi: fokuskan campaign pada channels yang paling sukses untuk meraih lebih banyak customer
+
+
+
+
+
+
+
+
+
+
 
 
 
